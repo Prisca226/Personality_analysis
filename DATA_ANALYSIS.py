@@ -49,9 +49,7 @@ st.write(no)
 no = df['Friends_circle_size'].describe()
 st.write(no)
 
-st.title("Data_Graph")
-fig = px.histogram(le, x='Going_outside', title = 'graph')
-st.plotly_chart(fig, use_container_width=True)
+
 
 
 
