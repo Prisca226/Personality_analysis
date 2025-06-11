@@ -53,11 +53,6 @@ st.title("Data_Graph")
 fig = px.histogram(le, x='Going_outside', title = 'graph')
 st.plotly_chart(fig, use_container_width=True)
 
-st. title("Data_Graph 2")
-Personality_Count = df["Personality"]
-Personality_Count.coloumns = ["Personality", "Count"]
-fig2 = px.bar(Personality_Count, x='Personality', title=("graph"))
-st.plotly_chart(fig2, use_container_width=True)
 
 
 
